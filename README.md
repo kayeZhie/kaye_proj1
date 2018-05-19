@@ -1,5 +1,5 @@
 Karren Zoleta | Portfolio
-Visit the site at "https://github.com/kayeZhie/Udacity_Proj1" to see it in action.
+Visit the site at "https://kayezhie.github.io/kaye_proj1/" to see it in action.
 
 -This project was created as part of the Grow with Google and Udacity Front-End Web Developer Nanodegree program. 
 
