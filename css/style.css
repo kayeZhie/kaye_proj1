@@ -1,0 +1,224 @@
+/*trying to push it to git*/
+html, body {
+  font-family: "open sans", sans serif;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #617aa3;
+}
+
+p {
+  padding: 15px;
+}
+
+/*
+Udacity Logo;
+My Name;
+Header style;
+*/
+
+.header-content {
+  position: relative;
+  max-width: 100%;
+  padding: 30px 15px;
+}
+
+.Logo {
+  margin-top: 10px;
+  margin-bottom: 0px;
+  color: #43aff2;
+  text-align: center;
+}
+
+.header-content img {
+  width: 5%;
+  height: 5%;
+}
+
+/*
+main section style
+*/
+
+.main_section {
+  max-width: 100%;
+  text-align: center;
+  color: #373c42;
+  border: 2px solid #003081  ;
+}
+
+.welcome {
+  text-align: center;
+  max-width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: sans-serif;
+  font-size: 35px;
+}
+
+.welcome span {
+  border-bottom: 2px solid;
+  padding-top: 28px;
+}
+
+.main_section {
+  max-width: 100%; 
+  display: flex;
+  padding: 15px;
+  background-color: #43aff2;
+}
+
+.inner_section {
+  flex: 2;
+  order: 2;
+  background-image: url("https://images.pexels.com/photos/934062/pexels-photo-934062.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-size: cover;
+  margin: 15px;
+  min-height: 200px;
+}
+
+.sidebar_about {
+ flex: 1;
+ order: 1;
+ margin: 15px;
+ font-size: 17px;
+ background-color: #e8edf4;
+}
+
+.sidebar_about h2 {
+  text-align: center;
+  color: #5a6370;
+}
+
+.sidebar_exp {
+ flex:1;
+ order: 3;
+ margin: 15px;
+ font-size: 17px;
+ background-color: #e8edf4;
+}
+
+.sidebar_exp h2 {
+  text-align: center;
+  color: #5a6370;
+}
+
+/*
+features style
+*/
+
+.feature {
+  text-align: center;
+  max-width: 100%;
+  margin-top: 50px;
+  font-family: sans-serif;
+  font-size: 35px;
+}
+
+.feature span {
+  border-bottom: 2px solid;
+  padding-top: 28px;
+  
+}
+
+.all_projects {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+  padding: 50px 15px;
+  text-align: center;
+  border: 2px solid #003081  ;
+  background-color: #e8edf4;
+}
+
+.menu {
+  padding: 10px;
+  margin-bottom: 20px;
+  flex-basis: 33%;
+  border: 1px solid;
+  margin: 5px;
+  background-color: #43aff2;
+}
+
+.menu h3 {
+  font-size: 30px;
+  text-align: center;
+}
+
+.menu img {
+  max-width: 100%;
+  max-height: 50%;
+}
+
+/*
+social
+media
+*/
+
+.fa {
+  padding: 5px;
+  font-size: 20px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.social{
+  width: 100%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-git {
+  background: #007bb5;
+  color: white;
+}
+
+.connect {
+  text-align: center;
+  font-size: 16px;
+  border-bottom: 2px solid;
+}
+
+/*
+media queries
+*/
+
+@media screen and ( min-width: 250px) and (max-width: 800px){
+ body {
+  max-width: 80%;
+  }
+  
+  .all_projects {
+    display: flex;
+    flex-direction: column;
+ }
+
+  .main_section {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .inner_section {
+    background-position: contain;
+    background-repeat: no-repeat;
+  }
+
+  .Logo img {
+    width: 18%; 
+  }
+
+  .connect {
+    display: flex;
+    flex-direction: column;
+
+  }
+
+ 
