@@ -193,17 +193,19 @@ media queries
 
 @media screen and ( min-width: 250px) and (max-width: 800px){
  body {
-  max-width: 80%;
+  max-width: 100%;
   }
   
   .all_projects {
     display: flex;
     flex-direction: column;
+    padding: 5px;
  }
 
   .main_section {
     display: flex;
     flex-direction: column;
+    padding: 5px;
   }
   
   .inner_section {
