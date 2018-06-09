@@ -3,7 +3,7 @@ html, body {
   font-family: "open sans", sans serif;
   max-width: 1200px;
   margin: 0 auto;
-  background-color: #617aa3;
+  
 }
 
 p {
@@ -28,6 +28,7 @@ Header style;
   color: #43aff2;
   text-align: center;
 }
+
 
 .header-content img {
   width: 5%;
@@ -211,10 +212,7 @@ media queries
   .inner_section {
     background-position: contain;
     background-repeat: no-repeat;
-  }
-
-  .Logo img {
-    width: 18%; 
+  
   }
 
   .connect {
